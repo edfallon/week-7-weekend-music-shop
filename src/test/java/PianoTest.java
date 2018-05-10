@@ -21,4 +21,9 @@ public class PianoTest {
     public void canGetColour() {
         assertEquals("Brown", piano1.getColour());
     }
+
+    @Test
+    public void canGetFamily() {
+        assertEquals("Keyboard", piano1.getFamily());
+    }
 }
