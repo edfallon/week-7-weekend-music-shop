@@ -26,4 +26,9 @@ public class GuitarTest {
     public void canGetFamily() {
         assertEquals("String", guitar1.getFamily());
     }
+
+    @Test
+    public void canGetNumberOfStrings() {
+        assertEquals(6, guitar1.getNumberOfStrings());
+    }
 }
