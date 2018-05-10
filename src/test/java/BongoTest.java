@@ -1,5 +1,8 @@
+import instruments.Bongo;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class BongoTest {
 
@@ -7,7 +10,7 @@ public class BongoTest {
 
     @Before
     public void setUp() throws Exception {
-        bongo = new Bongo("Wood", "Green", "Percussion", "Leather");
+        bongo1 = new Bongo("Wood", "Green", "Percussion", "Leather");
     }
 
     @Test
