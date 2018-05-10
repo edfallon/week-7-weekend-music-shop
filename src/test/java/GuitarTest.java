@@ -1,13 +1,15 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class GuitarTest {
 
     Guitar guitar1;
 
     @Before
     public void setUp() throws Exception {
-        guitar = new Guitar("Wood", "Black", "String", 6, "Acoustic");
+        guitar1 = new Guitar("Wood", "Black", "String", 6, "Acoustic");
     }
 
     @Test
