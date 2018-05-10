@@ -1,4 +1,6 @@
-public class Guitar extends Instrument{
+package instruments;
+
+public class Guitar extends Instrument {
 
     private int numberOfStrings;
     private String style;

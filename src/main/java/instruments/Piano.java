@@ -1,4 +1,8 @@
-public class Piano extends Instrument{
+package instruments;
+
+import instruments.Instrument;
+
+public class Piano extends Instrument {
 
     private int numberOfKeys;
     private int numberOfPedals;

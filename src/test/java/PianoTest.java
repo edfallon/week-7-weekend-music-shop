@@ -1,3 +1,4 @@
+import instruments.Piano;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -35,5 +36,10 @@ public class PianoTest {
     @Test
     public void canGetNumberOfPedals() {
         assertEquals(3, piano1.getNumberOfPedals());
+    }
+
+    @Test
+    public void canGetStyle() {
+        assertEquals("Grand", piano1.getStyle());
     }
 }
