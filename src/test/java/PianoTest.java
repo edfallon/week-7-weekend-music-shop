@@ -26,4 +26,9 @@ public class PianoTest {
     public void canGetFamily() {
         assertEquals("Keyboard", piano1.getFamily());
     }
+
+    @Test
+    public void canGetNUmberOfkeys() {
+        assertEquals(88, piano1.getNumberOfKeys());
+    }
 }
