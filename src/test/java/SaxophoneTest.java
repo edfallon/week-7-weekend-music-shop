@@ -1,3 +1,4 @@
+import instruments.Saxophone;
 import org.junit.Before;
 import org.junit.Test;
 
