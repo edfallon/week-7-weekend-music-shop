@@ -18,4 +18,9 @@ public class SaxophoneTest {
     public void canGetNumberOfKeys() {
         assertEquals(10, saxophone1.getNumberOfKeys());
     }
+
+    @Test
+    public void canGetStyle() {
+        assertEquals("Tenor", saxophone1.getStyle());
+    }
 }
