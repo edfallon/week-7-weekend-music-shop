@@ -16,4 +16,9 @@ public class PianoTest {
     public void getMaterial() {
         assertEquals("Mahogany", piano1.getMaterial());
     }
+
+    @Test
+    public void canGetColour() {
+        assertEquals("Brown", piano1.getColour());
+    }
 }
