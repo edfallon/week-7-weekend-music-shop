@@ -21,4 +21,9 @@ public class GuitarTest {
     public void canGetColour() {
         assertEquals("Black", guitar1.getColour());
     }
+
+    @Test
+    public void canGetFamily() {
+        assertEquals("String", guitar1.getFamily());
+    }
 }
