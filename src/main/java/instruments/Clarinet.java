@@ -4,8 +4,8 @@ public class Clarinet extends Instrument {
 
     private int numberOfKeys;
 
-    public Clarinet(String material, String colour, String family, int numberOfKeys) {
-        super(material, colour, family);
+    public Clarinet(int buyingPrice, int sellingPrice, String material, String colour, String family, int numberOfKeys) {
+        super(buyingPrice, sellingPrice, material, colour, family);
         this.numberOfKeys = numberOfKeys;
     }
 

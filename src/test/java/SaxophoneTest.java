@@ -10,7 +10,7 @@ public class SaxophoneTest {
 
     @Before
     public void setUp() throws Exception {
-        saxophone1 = new Saxophone("Brass", "Gold", "Brass", 10, "Tenor");
+        saxophone1 = new Saxophone(200, 350, "Brass", "Gold", "Brass", 10, "Tenor");
 
     }
 

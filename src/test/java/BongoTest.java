@@ -10,7 +10,7 @@ public class BongoTest {
 
     @Before
     public void setUp() throws Exception {
-        bongo1 = new Bongo("Wood", "Green", "Percussion", "Leather");
+        bongo1 = new Bongo(30, 120, "Wood", "Green", "Percussion", "Leather");
     }
 
     @Test

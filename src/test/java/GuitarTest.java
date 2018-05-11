@@ -10,7 +10,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() throws Exception {
-        guitar1 = new Guitar("Wood", "Black", "String", 6, "Acoustic");
+        guitar1 = new Guitar(100, 200, "Wood", "Black", "String", 6, "Acoustic");
     }
 
     @Test
@@ -41,5 +41,10 @@ public class GuitarTest {
     @Test
     public void canGetSoundFromPlay() {
         assertEquals("Twing Twang", guitar1.play());
+    }
+
+    @Test
+    public void canGetBuyingPrice() {
+        assertEquals(100, guitar1.getBuyingPrice());
     }
 }

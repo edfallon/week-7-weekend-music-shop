@@ -10,7 +10,7 @@ public class ClarinetTest {
 
     @Before
     public void setUp() throws Exception {
-        clarinet1 = new Clarinet("Wood", "Black", "Woodwind", 9);
+        clarinet1 = new Clarinet(100, 250, "Wood", "Black", "Woodwind", 9);
     }
 
     @Test

@@ -5,8 +5,8 @@ public class Saxophone extends Instrument{
     private int numberOfKeys;
     private String style;
 
-    public Saxophone(String material, String colour, String family, int numberOfKeys, String style) {
-        super(material, colour, family);
+    public Saxophone(int buyingPrice, int sellingPrice, String material, String colour, String family, int numberOfKeys, String style) {
+        super(buyingPrice, sellingPrice, material, colour, family);
         this.numberOfKeys = numberOfKeys;
         this.style = style;
     }
