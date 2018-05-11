@@ -1,6 +1,8 @@
 package otherItems;
 
-public abstract class Item {
+import instruments.ISell;
+
+public abstract class Item implements ISell {
 
     private int buyingPrice;
     private int sellingPrice;
@@ -22,5 +24,9 @@ public abstract class Item {
 
     public String getDescription() {
         return description;
+    }
+
+    public int calculateMarkup(){
+        return sellingPrice -= buyingPrice;
     }
 }

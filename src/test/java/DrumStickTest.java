@@ -27,4 +27,9 @@ public class DrumStickTest {
     public void canGetDescription() {
         assertEquals("Set of two drumsticks", drumStick.getDescription());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(20, drumStick.calculateMarkup());
+    }
 }
