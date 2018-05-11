@@ -1,6 +1,6 @@
 package instruments;
 
-public abstract class Instrument implements IPlay{
+public abstract class Instrument implements IPlay, ISell{
     private int buyingPrice;
     private int sellingPrice;
     private String material;
@@ -33,5 +33,9 @@ public abstract class Instrument implements IPlay{
 
     public String getFamily() {
         return family;
+    }
+
+    public int calculateMarkup(){
+        return sellingPrice -= buyingPrice;
     }
 }

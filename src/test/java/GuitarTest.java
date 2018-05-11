@@ -52,4 +52,9 @@ public class GuitarTest {
     public void canGetSellingPrice() {
         assertEquals(200, guitar1.getSellingPrice());
     }
+
+    @Test
+    public void canGetMarkup() {
+        assertEquals(100, guitar1.calculateMarkup());
+    }
 }
