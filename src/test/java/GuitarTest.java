@@ -37,4 +37,9 @@ public class GuitarTest {
     public void canGetStyle() {
         assertEquals("Acoustic", guitar1.getStyle());
     }
+
+    @Test
+    public void canGetSoundFromPlay() {
+        assertEquals("Twing Twang", guitar1.play());
+    }
 }

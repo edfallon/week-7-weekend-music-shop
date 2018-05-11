@@ -12,4 +12,8 @@ public class Bongo extends Instrument {
     public String getTypeOfSkin() {
         return typeOfSkin;
     }
+
+    public String play(){
+        return "";
+    }
 }

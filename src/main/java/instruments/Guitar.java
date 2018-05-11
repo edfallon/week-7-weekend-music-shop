@@ -18,4 +18,8 @@ public class Guitar extends Instrument {
     public String getStyle() {
         return style;
     }
+
+    public String play(){
+        return "Twing Twang";
+    }
 }

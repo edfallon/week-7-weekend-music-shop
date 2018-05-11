@@ -18,4 +18,8 @@ public class Saxophone extends Instrument{
     public String getStyle() {
         return style;
     }
+
+    public String play(){
+        return "";
+    }
 }
