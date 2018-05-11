@@ -36,6 +36,6 @@ public abstract class Instrument implements IPlay, ISell{
     }
 
     public int calculateMarkup(){
-        return sellingPrice -= buyingPrice;
+        return sellingPrice - buyingPrice;
     }
 }
