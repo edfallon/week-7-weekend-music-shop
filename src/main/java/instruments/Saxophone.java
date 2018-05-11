@@ -20,6 +20,6 @@ public class Saxophone extends Instrument{
     }
 
     public String play(){
-        return "";
+        return "parp parp parp";
     }
 }

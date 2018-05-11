@@ -17,4 +17,9 @@ public class ClarinetTest {
     public void canGetNumberOfKeys() {
         assertEquals(9, clarinet1.getNumberOfKeys());
     }
+
+    @Test
+    public void canGetSoundFromPlay() {
+        assertEquals("toot toot", clarinet1.play());
+    }
 }

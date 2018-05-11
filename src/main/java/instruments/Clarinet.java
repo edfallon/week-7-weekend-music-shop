@@ -14,6 +14,6 @@ public class Clarinet extends Instrument {
     }
 
     public String play(){
-        return "";
+        return "toot toot";
     }
 }

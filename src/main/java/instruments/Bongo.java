@@ -14,6 +14,6 @@ public class Bongo extends Instrument {
     }
 
     public String play(){
-        return "";
+        return "bum de bum";
     }
 }

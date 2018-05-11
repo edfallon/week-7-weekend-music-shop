@@ -28,6 +28,6 @@ public class Piano extends Instrument {
     }
 
     public String play(){
-        return "";
+        return "plink plonk";
     }
 }

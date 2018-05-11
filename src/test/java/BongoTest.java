@@ -17,4 +17,9 @@ public class BongoTest {
     public void canGetTypeOfSkin() {
         assertEquals("Leather", bongo1.getTypeOfSkin());
     }
+
+    @Test
+    public void canGetSoundFromPlay() {
+        assertEquals("bum de bum", bongo1.play());
+    }
 }

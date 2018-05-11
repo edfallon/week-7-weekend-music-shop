@@ -42,4 +42,9 @@ public class PianoTest {
     public void canGetStyle() {
         assertEquals("Grand", piano1.getStyle());
     }
+
+    @Test
+    public void canGetSoundFromPlay() {
+        assertEquals("plink plonk", piano1.play());
+    }
 }

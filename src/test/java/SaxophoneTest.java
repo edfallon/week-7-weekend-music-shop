@@ -23,4 +23,9 @@ public class SaxophoneTest {
     public void canGetStyle() {
         assertEquals("Tenor", saxophone1.getStyle());
     }
+
+    @Test
+    public void canGetSoundFromPlay() {
+        assertEquals("parp parp parp", saxophone1.play());
+    }
 }
