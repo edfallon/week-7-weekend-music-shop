@@ -22,4 +22,9 @@ public class DrumStickTest {
     public void canGetSellingPrice() {
         assertEquals(30, drumStick.getSellingPrice());
     }
+
+    @Test
+    public void canGetDescription() {
+        assertEquals("Set of two drumsticks", drumStick.getDescription());
+    }
 }
